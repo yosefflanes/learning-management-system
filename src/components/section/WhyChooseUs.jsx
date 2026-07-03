@@ -14,9 +14,7 @@ const WhyChooseUs = () => {
           experience, ensuring you gain the skills you need to succeed.
         </p>
       </div>
-      <div
-        className="flex gap-3 overflow-x-auto"
-      >
+      <div className="flex gap-3 overflow-x-auto">
         <Card
           icon={Online}
           title={"Online Material"}
@@ -44,5 +42,3 @@ const WhyChooseUs = () => {
 };
 
 export default WhyChooseUs;
-
-

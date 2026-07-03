@@ -11,9 +11,7 @@ const Feature = () => {
       <div className="h-15">
         <h3 className="font-bold text-2xl">Featured Courses</h3>
       </div>
-      <div
-        className="flex gap-3 overflow-x-auto"
-      >
+      <div className="flex gap-3 overflow-x-auto">
         <Card
           image={Web}
           title={"Web Development Fundamentals"}
@@ -40,7 +38,7 @@ const Feature = () => {
         />
       </div>
       <div className="h-16 py-3 px-4 flex items-center justify-center mt-10">
-        <Button size="md" title={'View All Courses'} variant="secondary" />
+        <Button size="md" title={"View All Courses"} variant="secondary" />
       </div>
     </Container>
   );

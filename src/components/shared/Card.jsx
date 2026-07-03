@@ -13,7 +13,7 @@ const Card = ({ icon, title, description, image, noPaddingBorder = false }) => {
           <img src={icon} alt={`${title} icon`} />
         </div>
       )}
-      <div className='flex flex-col gap-3'>
+      <div className="flex flex-col gap-3">
         <h3 className="text-primary font-bold">{title}</h3>
         <p className="text-secondary">{description}</p>
       </div>

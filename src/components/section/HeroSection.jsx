@@ -4,8 +4,8 @@ import Container from "./Container";
 
 const HeroSection = () => {
   return (
-      <Container className="mt-20 md:mt-5">
-        <div
+    <Container className="mt-20 md:mt-5">
+      <div
         style={{ backgroundImage: `var(--background-gradient), url(${Hero})` }}
         className="min-h-110 h-auto bg-cover bg-center bg-no-repeat rounded-xl flex flex-col justify-center items-center p-6 md:mt-15 mx-auto"
       >
@@ -18,10 +18,14 @@ const HeroSection = () => {
             comprehensive online courses. Learn at your own pace, anytime,
             anywhere.
           </p>
-          <Button title={"Start Learning"} size="md" className={'hover:bg-blue-800'} />
+          <Button
+            title={"Start Learning"}
+            size="md"
+            className={"hover:bg-blue-800"}
+          />
         </div>
       </div>
-      </Container>
+    </Container>
   );
 };
 
